@@ -1,0 +1,42 @@
+.main_container{
+    width: 300px;  
+    margin: 12vh auto;
+    padding: 7px;
+    border-radius: 7px;
+    background-color: #0d0d0d;
+}
+
+.output_screen{
+    height: 150px;
+    margin-bottom: 7px;
+    background-color: #1a1a1a;
+    color: white;
+    border-radius: 7px;   
+    
+}
+
+.output_screen span{
+    position: relative;
+    
+}
+
+.access_button{
+    min-height: 275px;
+    border-radius: 7px; 
+    padding-left: 4px; 
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap:5px ;
+    grid-row-gap:5px ;
+}
+
+.access_button .btn{
+    padding-top: 7px;
+    background-color:  #262626;
+    color: white;
+}
+
+.access_button .btn:hover{
+    background-color: #404040;
+    color: white;
+}
