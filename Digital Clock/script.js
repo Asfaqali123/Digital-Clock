@@ -9,6 +9,8 @@ function updateClock(){
     let s = new Date().getSeconds()
     let ampm = "AM"
     
+    console.log(ampm);
+    
     if(h >= 12){
         if(h >= 13){
             h = h - 12
